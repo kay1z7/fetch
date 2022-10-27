@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3%;
+  align-items: center;
+}
+
+.card {
+  margin-bottom: 2%;
+  width: 80%;
+  position: relative;
+}
+
+.card-body {
+  width: 80%;
+}
+
+.btn-dark {
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.pagination-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.pagination-block > button {
+  position: static;
+  margin: 0 0.5%;
+}
